@@ -1,5 +1,8 @@
 import List from './List.jsx'
 import ListProps from './ListProps.jsx'
+import Updater from './useState.jsx'
+import ChangeEvents from './onChange.jsx'
+import ColorPicker from './ColorPicker.jsx'
 
 
 function App() {
@@ -15,6 +18,12 @@ function App() {
       <List />
       <br />
       {cars.length > 0 && <ListProps items={cars} category="Cars" />}
+      <br />
+      <Updater />
+      <br />
+      <ChangeEvents />
+      <br />
+      <ColorPicker />
     </>
 
   );
