@@ -30,6 +30,14 @@ function Updater() {
         setCount(0);
     }
 
+    //UPDATER FUNCTIONS
+    //Ha egyszerre több állapotot szeretnénk frissíteni, akkor a setState függvényeket egymás után hívjuk meg. A React automatikusan újrarendereli a current state alapján így csak a legutolsó állapotot fogja figyelembe venni. Emiatt updater functionst használnk ami a pending state alapján frssít a next satatre.
+    //Pl:
+    // const incrementCountByThree = () => {
+    //     setCount(c => c + 3);
+    // }
+
+
 
     return (
         <div id="updater">
