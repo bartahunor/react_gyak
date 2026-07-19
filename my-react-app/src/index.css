@@ -49,3 +49,79 @@
   text-align: center;
   align-items: center;
 }
+
+.to-do-list{
+  text-align: center;
+  height: auto;
+  width: fit-content;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.to-do-list .add-btn{
+  background-color: #28a745;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.to-do-list input[type="text"]{
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.to-do-list ol{
+  list-style-type: none;
+  padding: 0;
+}
+
+.to-do-list ol li{
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.to-do-list ol li .delete-btn{
+  background-color: #dc3545;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 10px;
+}
+
+.to-do-list ol li .up-btn{
+  background-color: #6735dc;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 10px;
+}
+
+.to-do-list ol li .down-btn{
+  background-color: #22ac8e;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 10px;
+}
+
+.to-do-list .text{
+  flex: 1;
+}
+

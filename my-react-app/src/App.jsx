@@ -3,6 +3,7 @@ import ListProps from './ListProps.jsx'
 import Updater from './useState.jsx'
 import ChangeEvents from './onChange.jsx'
 import ColorPicker from './ColorPicker.jsx'
+import ToDoList from './toDoList.jsx'
 
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
       <ChangeEvents />
       <br />
       <ColorPicker />
+      <br />
+      <ToDoList />
     </>
 
   );
