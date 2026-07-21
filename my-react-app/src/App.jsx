@@ -4,6 +4,7 @@ import Updater from './useState.jsx'
 import ChangeEvents from './onChange.jsx'
 import ColorPicker from './ColorPicker.jsx'
 import ToDoList from './toDoList.jsx'
+import UseEffectExample from './useEffect.jsx'
 
 
 function App() {
@@ -27,6 +28,8 @@ function App() {
       <ColorPicker />
       <br />
       <ToDoList />
+      <br />
+      <UseEffectExample />
     </>
 
   );
